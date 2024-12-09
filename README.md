@@ -22,7 +22,7 @@ To configure a RHEL system to be managed by Red Hat Insights, we need to install
     insights-client --register
     ```
 3. To verify if the insights-client is reporting, navigate to the [Insights Systems Inventory](console.redhat.com/insights/inventory) via the Customer Portal. After a few minutes you should notice that your system is listed and has recently checked in via the insights-client.
-![alt text](image.png)
+![alt text](images/image.png)
 
 ## Step 2: Tagging Systems
 
@@ -55,7 +55,7 @@ In the above screenshot, you may have noticed the **Tags** column in our System 
     ```
 
 4. Navigate to the [Insights Systems Inventory](console.redhat.com/insights/inventory) to inspect that your tags are properly applied to your system.
-    ![alt text](image-1.png)
+    ![alt text](images/image-1.png)
 
     With our tags applied, we can now filter our entire inventory of systems based on the specific attributes we've applied. This feature is incredibly useful to keep track of where and how systems are being used in your organization.
 
