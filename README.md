@@ -115,7 +115,7 @@ Using the above steps, let's consolidate these tasks in an Ansible playbook.
 ```
 
 **Suggestions**
-- Rather than defining the variable directly in the ```vars``` section, leveraging a group vars file may be recommended to execute across a group of systems. For example, in this case, a group vars file may look something like this.
+- Rather than defining the variables directly in the ```vars``` section, leveraging a group vars file may be recommended to execute across a group of systems. For example, in this case, a group vars file may look something like this.
 
   ```yaml
   org_id: "<org-id>"                 # Replace with your account organization ID
