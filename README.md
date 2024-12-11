@@ -35,7 +35,9 @@ In the above screenshot, you may have noticed the **Tags** column in our System 
 
     touch tags.yml
     ```
-2. Populate the ```tags.yaml``` file with attributes that may be useful to see in the customer portal. Note: these tags are not tied to a subscription pool or contract number associated with a system, the below example simply includes tags that may be useful to you for informational tracking purposes. Keeping that in mind, feel free to create your own custom tags for other purposes.
+2. Populate the ```tags.yaml``` file with attributes that may be useful to see in the customer portal.
+   **Note**
+   - Tags are not tied to a subscription pool or contract number associated with a system, the below example simply includes tags that may be useful to you for informational tracking purposes. Keeping that in mind, feel free to create your own custom tags for other purposes.
 
     Here is an example of my tags.yaml file
 
@@ -48,13 +50,13 @@ In the above screenshot, you may have noticed the **Tags** column in our System 
 
     ```
 
-3. Refresh data with Insights service.
+5. Refresh data with Insights service.
 
     ```
     insights-client --register
     ```
 
-4. Navigate to the [Insights Systems Inventory](console.redhat.com/insights/inventory) to inspect that your tags are properly applied to your system.
+6. Navigate to the [Insights Systems Inventory](console.redhat.com/insights/inventory) to inspect that your tags are properly applied to your system.
     ![alt text](images/image-1.png)
 
     With our tags applied, we can now filter our entire inventory of systems based on the specific attributes we've applied. This feature is incredibly useful to keep track of where and how systems are being used in your organization.
