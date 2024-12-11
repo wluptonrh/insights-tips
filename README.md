@@ -35,7 +35,7 @@ In the above screenshot, you may have noticed the **Tags** column in our System 
 
     touch tags.yml
     ```
-2. Populate the ```tags.yaml``` file with attributes that may be useful to see in the customer portal. 
+2. Populate the ```tags.yaml``` file with attributes that may be useful to see in the customer portal. Note: these tags are not tied to a subscription pool or contract number associated with a system, the below example simply includes tags that may be useful to you for informational tracking purposes. Keeping that in mind, feel free to create your own custom tags for other purposes.
 
     Here is an example of my tags.yaml file
 
